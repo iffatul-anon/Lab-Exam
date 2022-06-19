@@ -7,7 +7,8 @@ int main()
 
 	int a[n];
 	int i,j,temp;
-
+	
+	printf("Enter numbers: ");
 	for(i=0;i<n;i++){
 	scanf("%d",&a[i]);
 	}
