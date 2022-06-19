@@ -13,6 +13,12 @@ int main()
 	scanf("%d",&a[i]);
 	}
 	
+	printf("Numbers: ");
+	for(i=0;i<n;i++){
+		printf("%d ",a[i]);
+	}
+	printf("\n");
+	
 	for(i=0;i<n;i++){
 
 		for(j=i+1;j<n;j++){
